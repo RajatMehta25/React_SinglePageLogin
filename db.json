@@ -1,0 +1,44 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "email": "rjt25881@gmail.com",
+      "password": "555555",
+      "id": 2
+    },
+    {
+      "email": "rjt25881@gmail.com",
+      "password": "5665555",
+      "id": 3
+    },
+    {
+      "email": "jorej45215@sicmag.com",
+      "password": "55758585",
+      "id": 4
+    },
+    {
+      "email": "rajatmehta25@gmail.com",
+      "password": "458955",
+      "id": 5
+    },
+    {
+      "email": "rjt25881@gmail.co",
+      "password": "48569965",
+      "id": 6
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
