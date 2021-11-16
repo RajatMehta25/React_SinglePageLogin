@@ -1,4 +1,4 @@
-{
+{ "homepage":"https://RajatMehta25.github.io/React_SinglePageLogin/",
   "name": "basic",
   "version": "0.1.0",
   "private": true,
@@ -16,6 +16,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "json-server": "json-server --watch db.json --port 4000",
     "start:dev": "concurrently \"npm start\" \"npm run json-server\"",
     "build": "react-scripts build",
